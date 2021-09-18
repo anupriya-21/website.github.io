@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-image:url('../img/sets.jpg');
+    height: 100vh;
+    background-size: cover;
+    
+    }
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+    
+ul li {
+     display: inline-block;
+    padding: 25px;
+    margin: 0;
+    
+   
+}
+ul li a {
+    text-decoration: none;
+    color: rgb(9, 199, 189);
+    font-size: 25px;
+
+    
+    
+}
+ul li a:hover{
+    color:rgb(182, 23, 36);
+    
+}
+
+
+.logo img{
+        width: 200px;
+        height: 100px;
+        margin-top: 25px;
+        
+    }
+    .heading{
+        text-align: center;
+        font-size: 50px;
+       
+        
+    }
+    .heading h1{
+        color: darkorange;
+        margin-top: 80px;
+        animation: h1 7s  infinite alternate-reverse;
+    }
+    .button{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .bttn{
+        border: 2px solid orange;
+        color: blanchedalmond;
+        background-color: orangered;
+        padding: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+       
+    }
+    .bttn:hover{
+        background-color: #fff;
+        color: limegreen;
+    }
+
+@keyframes h1{
+    0%{
+        color: rgb(150, 24, 93);
+    }
+    25%{
+        color:rgb(67, 48, 197);
+    }
+    50%{
+        color:rgb(111, 180, 8);
+    }
+    75%{
+        color: rgb(245, 136, 12);
+    }
+    100%{
+        color: rgb(13, 102, 68);
+    }
+}
